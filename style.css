@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style:	none;
+    border: 0;
+    font-family: Arial;
+    font-size: 18px;
+    color: #343F52;
+}
+a {
+    text-decoration: none;
+}
+button {
+    padding: 12px 18px;
+    background: #5EB9F0;
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+p {
+    color: #60697B;
+    line-height: 1.5em;
+}
+/* HEADER */
+header {
+    padding: 1.5vw 15%;
+}
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav ul {
+    display: flex;
+    align-items: center;
+}
+header nav ul li {
+    margin: 0 25px;
+}
+
+/* MAIN */
+section {
+    padding: 0 15%;
+}
+.topo {
+    padding: 6vw 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.topo div h1, h1 span {
+    font-size: 60px;
+}
+.topo div h1 span {
+    color: #5EB9F0;
+}
+.topo div p {
+    font-size: 22px;
+    margin: 2vw 0;
+}
+.corpo {
+    background: #F0F8FE;
+    padding: 4vw 0;
+}
+.corpo .divFlex {
+    margin-top: 2vw;
+    display: flex;
+    justify-content: center;
+}
+.corpo .divFlex div {
+    background: #FFFFFF;
+    padding: 2vw;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.corpo .divFlex div:last-child {
+    margin-left: 4vw;
+}
+.corpo .divFlex div h3 {
+    font-size: 25px;
+    margin: 1vw 0;
+}
+.corpo .divFlex div a, .corpo .divFlex div a span {
+    margin: 1vw 0;
+    color: #5EB9F0;
+}
+.pe {
+    padding: 2.5vw 15%;
+    background: #343F52;
+}
+.pe div {
+    padding-bottom: 2.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #FFFFFF;
+}
+.pe h2 {
+    color: #FFFFFF;
+}
+
+/* FOOTER */ 
+footer {
+    padding-bottom: 3vw;
+    background: #343F52;
+}
+footer p {
+    text-align: center;
+    color: #FFFFFF;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+footer ul li {
+    margin: 10px 15px;
+}
+footer ul li span {
+    color: #FFFFFF;
+}
